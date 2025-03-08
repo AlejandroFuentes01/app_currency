@@ -1,0 +1,47 @@
+name: app_currency_converter
+description: "Convertidor de divisas para viajeros."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Iconos de Cupertino para iOS
+  cupertino_icons: ^1.0.6
+  
+  # Para realizar solicitudes HTTP a la API de conversión
+  http: ^1.1.0
+  
+  # Para guardar preferencias de usuario
+  shared_preferences: ^2.2.0
+  
+  # Para formatear fechas y números
+  intl: ^0.18.1
+  
+  # Para mostrar banderas de países
+  country_flags: ^2.2.0
+  flutter_svg: ^2.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Para agregar assets como imágenes, fuentes, etc. (descomenta si necesitas)
+  # assets:
+  #   - images/flags/
+  
+  # Para agregar fuentes personalizadas (descomenta si necesitas)
+  # fonts:
+  #   - family: Montserrat
+  #     fonts:
+  #       - asset: fonts/Montserrat-Regular.ttf
+  #       - asset: fonts/Montserrat-Bold.ttf
+  #         weight: 700
